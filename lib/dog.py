@@ -37,3 +37,6 @@ class Dog:
             raise ValueError("Breed must be in list of approved breeds.")
 
     breed = property(get_breed, set_breed)
+my_dog=Dog("Jane","dairy")
+print(my_dog.name)
+print(my_dog.breed)
